@@ -1,2 +1,2 @@
 # RandomScripts
-Random Scripts I made out of sheer boredome
+Random Scripts I made out of sheer boredom
