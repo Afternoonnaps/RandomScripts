@@ -1,5 +1,6 @@
 # Import package
 import requests
+from bs4 import BeautifulSoup
 
 # Specify the url: url
 url = "https://afternoonnaps.github.io"
@@ -10,5 +11,8 @@ r = requests.get(url)
 # Extract the response: text
 text = r.text
 
+#Create BS Object
+soup = BeautifulSoup(text)
+
 # Print the html
-print(text)
+print(soup.prettify())
