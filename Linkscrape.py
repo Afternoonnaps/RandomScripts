@@ -14,7 +14,7 @@ html_doc = r.text
 # create a BeautifulSoup object from the HTML: soup
 soup = BeautifulSoup(html_doc, "html5lib")
 
-# Print the title of Guido's webpage
+# Print the title of webpage
 print(soup.title)
 
 # Find all 'a' tags (which define hyperlinks): a_tags
