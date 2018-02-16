@@ -1,3 +1,5 @@
+import numpy as np
+
 def ecdf(data):
     """Compute ECDF for a one-dimensional array of measurements."""
 
@@ -13,8 +15,7 @@ def ecdf(data):
     return x, y
 
 
-
-x y = ecdf(data)
+x, y = ecdf(text)
 
 # Generate plot
 _ = plt.plot(x, y, marker='.', linestyle='none')
