@@ -9,4 +9,5 @@ Lasso.py == Lasso Regression Plotter to visualize most important feature/regress
 RidgeAlphaValid.py == Find the best alpha for Ridge regression using cross validation for test data  
 ROC.py == Logreg + ROC Curve plot/visualization  
 PermReplicates.py == Create permuted replicates for a given func + 2 arrays  
-ElasticNetAlphaOpt == Optimizes l1 hyperparamater for ElasticNet Regression
+ElasticNetAlphaOpt == Optimizes l1 hyperparamater for ElasticNet Regression  
+LogRegGridSearchCV == Optimize 'C' Hyperparameter through cross validation
